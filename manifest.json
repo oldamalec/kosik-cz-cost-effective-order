@@ -1,0 +1,14 @@
+{
+    "name": "kosik-cz-cost-effective-order",
+    "version": "1.0",
+    "description": "Allows you to choose the most cost-effective package when shopping groceries online!",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "content_scripts": [{
+        "matches": ["*://www.kosik.cz/*"],
+        "js": [
+            "jquery-3.3.1.min.js",
+            "content.js"
+        ]
+    }],
+    "manifest_version": 2
+}
