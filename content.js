@@ -7,7 +7,7 @@ $(document).ready(function(){
 	}
 
 	let el = dropdown.find('li').first().clone();
-	el.find('a').attr('href', 'javascript:void(0)').attr('onclick', 'sortByCostEfficiency()').text('Nejvýhodnější');
+	el.find('a').attr('href', 'javascript:void(0);').click(sortByCostEfficiency).text('Nejvýhodnější');
 	dropdown.prepend(el);
 });
 
