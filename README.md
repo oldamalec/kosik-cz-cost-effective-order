@@ -1,5 +1,9 @@
 # Kosik.cz product cost effective ordering
 
+## Outdated warning
+
+* This plugin is not updated to support the new desing of kosik.cz website deployed in Fall 2019.
+
 ## What it does?
 
 * This extension allows you to sort loaded products on kosik.cz by cost-efficiency, placing the chepest-per-amount products first.
